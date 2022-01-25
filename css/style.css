@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3367d6;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+/* Header  */
+header {
+    padding: 0 30px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+/* Top  */
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.appGoogle {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #5f6368;
+}
+/* Left  */
+.left {
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 80px;
+}
+
+
+.account {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom  */
+.menu {
+    display: flex;
+    font-weight: bold;
+}
+.menu li {
+    margin-right: 25px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #5f6368;
+}
+
+.active {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    
+}
+
+
+/* FAQ  */
+
+.content {
+    margin-top: 250px;
+}
+
+.question {
+    color:#3c4043;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.answer {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.a-b li{
+    list-style-type: lower-alpha;
+    margin: 20px;
+}
